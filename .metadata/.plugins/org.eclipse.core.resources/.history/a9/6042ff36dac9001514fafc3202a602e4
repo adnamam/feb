@@ -1,0 +1,5 @@
+package seleniumProj.sProj;
+
+public class SimpleTest extends WebDriverManager {
+
+}

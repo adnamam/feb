@@ -1,0 +1,10 @@
+package seleniumProj.sProj;
+
+import org.openqa.selenium.WebDriver;
+
+public class WebDriverManager {
+	
+	WebDriver driver;
+	private static String driverPath = "/Users/amarrione/Downloads/";
+
+}

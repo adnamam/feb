@@ -1,0 +1,30 @@
+package seleniumProj.sProj;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class WebDriverManager {
+	
+	WebDriver driver;
+	private static String driverPath = "/Users/amarrione/Downloads/";
+	
+	public WebDriver driver() {
+		if (driver == null) {
+			driver = createDriver();
+		}
+		return driver;
+	}
+	
+	public WebDriver createDriver() {
+		
+		DesiredCapabilities capability = new DesiredCapabilities();
+		capability.setPlatform(Platform.ANY);
+		capability.setJavascriptEnabled(true);
+		
+		System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver");
+		capability = DesiredCapabilities.chrome();
+		return driver;
+	}
+
+}

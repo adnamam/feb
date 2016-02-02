@@ -1,0 +1,118 @@
+2016-02-02 09:45:16,641 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/amarrione/Desktop/boop/sProj/pom.xml
+2016-02-02 09:45:17,196 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: seleniumProj:sProj:0.0.1-SNAPSHOT @ /Users/amarrione/Desktop/boop/sProj/pom.xml.
+2016-02-02 09:45:17,415 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sProj/src/main/java
+2016-02-02 09:45:17,416 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sProj/src/test/java
+2016-02-02 09:45:18,980 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2016-02-02 09:45:19,210 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: seleniumProj:sProj:0.0.1-SNAPSHOT @ /Users/amarrione/Desktop/boop/sProj/pom.xml.
+2016-02-02 09:45:19,339 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: seleniumProj:sProj:0.0.1-SNAPSHOT @ /Users/amarrione/Desktop/boop/sProj/pom.xml.
+2016-02-02 09:45:19,382 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:45:19,382 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 09:45:19,384 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:45:19,384 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 09:45:20,461 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: seleniumProj:sProj:0.0.1-SNAPSHOT @ /Users/amarrione/Desktop/boop/sProj/pom.xml.
+2016-02-02 09:45:20,609 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:45:20,609 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 09:45:20,610 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:45:20,610 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 09:45:58,231 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:45:58,231 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 09:45:58,232 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:45:58,232 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 09:47:45,674 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:47:45,674 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 09:47:45,675 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:47:45,675 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 09:48:39,618 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: seleniumProj:sProj:0.0.1-SNAPSHOT @ /Users/amarrione/Desktop/boop/sProj/pom.xml.
+2016-02-02 09:48:39,734 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.pom
+2016-02-02 09:48:39,757 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.pom
+2016-02-02 09:48:39,773 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.jar
+2016-02-02 09:48:39,822 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.jar
+2016-02-02 09:48:39,844 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:48:39,844 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 09:48:39,845 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:48:39,845 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 09:48:40,965 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:48:40,965 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 09:48:40,966 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 09:48:40,966 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 11:46:49,040 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: seleniumProj:sProj:0.0.1-SNAPSHOT @ /Users/amarrione/Desktop/boop/sProj/pom.xml.
+2016-02-02 11:46:49,416 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 11:46:49,416 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 11:46:49,418 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 11:46:49,418 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 11:46:50,726 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 11:46:50,727 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 11:46:50,727 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 11:46:50,727 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 11:47:32,949 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-02-02 11:47:48,019 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/amarrione/Desktop/boop/sProj
+2016-02-02 11:47:48,019 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-02-02 12:12:27,141 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 12:12:27,142 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 12:12:27,143 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 12:12:27,143 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 12:55:05,480 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 12:55:05,483 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 12:55:05,485 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 12:55:05,485 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 12:55:15,395 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 12:55:15,395 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 12:55:15,396 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 12:55:15,396 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:01:42,555 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:01:42,556 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:01:42,556 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:01:42,556 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:04:03,437 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:04:03,437 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:04:03,438 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:04:03,438 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:04:22,821 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:04:22,822 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:04:22,822 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:04:22,822 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:04:35,680 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2016-02-02 13:04:35,710 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/amarrione/Desktop/boop/sProj
+2016-02-02 13:04:35,710 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-02-02 13:05:16,642 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:05:16,642 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:05:16,642 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:05:16,642 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:13:17,363 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:13:17,363 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:13:17,364 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:13:17,364 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:13:18,373 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:13:18,373 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:13:18,374 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:13:18,374 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:24:36,923 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:24:36,924 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:24:36,924 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:24:36,924 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:24:39,141 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:24:39,141 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:24:39,142 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:24:39,142 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:30:22,215 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:30:22,219 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:30:22,220 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:30:22,220 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:32:06,734 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2016-02-02 13:32:09,682 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/amarrione/Desktop/boop/sProj
+2016-02-02 13:32:09,682 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2016-02-02 13:32:09,776 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:32:09,777 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:32:09,777 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:32:09,778 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:32:43,318 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:32:43,319 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:32:43,319 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:32:43,319 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:32:44,328 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:32:44,328 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/main/resources
+2016-02-02 13:32:44,329 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-02 13:32:44,329 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amarrione/Desktop/boop/sProj/src/test/resources
+2016-02-02 13:32:50,964 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2016-02-02 13:32:51,003 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/amarrione/Desktop/boop/sProj
+2016-02-02 13:32:51,003 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install

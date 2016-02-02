@@ -1,0 +1,8 @@
+package seleniumProj.sProj;
+
+public class WebDriverManager {
+	
+	Webdriver driver;
+	private static String driverPath = "/Users/amarrione/Downloads/";
+
+}
