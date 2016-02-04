@@ -12,7 +12,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class WebDriverManager {
 	
 	WebDriver driver;
-	private static String driverPath = "/Users/amarrione/Downloads/";
+	private static String driverPath = "C:\\";
 	
 	public WebDriver driver() {
 		if (driver == null) {
@@ -27,7 +27,7 @@ public class WebDriverManager {
 		capability.setPlatform(Platform.ANY);
 		capability.setJavascriptEnabled(true);
 		
-		System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver");
+		System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver.exe");
 		capability = DesiredCapabilities.chrome();
 		
 		try {
