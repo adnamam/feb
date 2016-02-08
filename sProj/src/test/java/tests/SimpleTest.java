@@ -1,7 +1,9 @@
-package seleniumProj.sProj;
+package tests;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
+
+import utilities.WebDriverManager;
 
 public class SimpleTest extends WebDriverManager {
 	
@@ -11,7 +13,7 @@ public class SimpleTest extends WebDriverManager {
 		driver().get("https://masttest.stsci.edu/portal/Mashup/Clients/Mast/Portal.html");
 		driver().findElement(By.linkText("Random Search"));
 		
-		driver.quit();
+		driver().quit();
 	}
 
 }
