@@ -11,7 +11,7 @@ public class SimpleTest extends WebDriverManager {
 	public void simpleTest() {
 		driver();
 		driver().get("https://masttest.stsci.edu/portal/Mashup/Clients/Mast/Portal.html");
-		driver().findElement(By.linkText("Random Search"));
+		driver().findElement(By.linkText("Random Search asdfsd"));
 		
 		driver().quit();
 	}
