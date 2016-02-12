@@ -75,7 +75,9 @@ public class FiltersPage extends BasePage{
 	 * Clicks the show more button for the instruments filter
 	 */
 	public void showAllInstrumentFilters() {
-		driver.findElement(By.id("button-1141-btnIconEl")).click();
+		driver.findElement(By.id("button-1142-btnIconEl")).click();
+//		WebElement showAllButton = getFirstEl("Show 6 More");
+//		showAllButton.click();
 	}
 	
 	public void filterSTIS_FUV_MAMA() {

@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.openqa.selenium.NoSuchElementException;
 
 import pages.ContentPage;
 import pages.FiltersPage;
@@ -30,11 +31,16 @@ public class SpectralViewerUseCaseTest extends BaseTest{
 		sv.clickFittingHeader();
 		sv.clickEnableFitting();
 		//verify fitting is enabled
-		Assert.assertTrue(sv.isDisabledFittingButtonDisplayed());
-		sv.clickCanvas(450 , 300);
+		try {
+			Assert.assertTrue(sv.isDisabledFittingButtonDisplayed());			
+		}catch (NoSuchElementException e) {
+			sv.clickEnableFitting();
+			
+		}
+		sv.clickCanvas(300 , 500);
 		//verify starting point was drawn
 		Assert.assertTrue("Starting point did not display correctly", sv.startingPoint().contains("1) X:"));
-		sv.clickCanvas(650, 270);
+		sv.clickCanvas(400, 600);
 		//verify ending point was drawn
 		Assert.assertTrue("Ending point did not display correctly", sv.endingPoint().contains("2) X"));
 		

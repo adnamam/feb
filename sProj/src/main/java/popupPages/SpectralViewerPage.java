@@ -1,6 +1,7 @@
 package popupPages;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -106,7 +107,18 @@ public class SpectralViewerPage extends BasePage{
 	}
 	
 	public void clickEnableFitting() {
-		enableFittingButton().click();
+//		Actions act = new Actions(driver);
+//		Point location = enableFittingButton().getLocation();
+//		System.out.println("location::::: "+ location);
+//		act.moveToElement(enableFittingButton()).click().build();
+//		act.perform();
+//		enableFittingButton().getLocation();
+//		enableFittingButton().click();
+//		driverWait(20);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		Actions builder = new Actions(driver);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		builder.moveToElement(enableFittingButton(), 25, 15).click().build().perform();
 	}
 	
 	/**
