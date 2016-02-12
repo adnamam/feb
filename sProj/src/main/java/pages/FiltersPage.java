@@ -100,31 +100,31 @@ public class FiltersPage extends BasePage{
 	 * Clicks the image checkbox
 	 */
 	public void filterImage(){
-		driver.findElement(By.id("checkbox-1105-inputEl")).click();
+		driver.findElement(By.id("checkbox-1106-inputEl")).click();
 //		filterElement("image");
 	}
 	
 	
 	public void filterDADS(){
-		driver.findElement(By.id("checkbox-1171-inputEl")).click();
+		driver.findElement(By.id("checkbox-1172-inputEl")).click();
 //		filterElement("DADS");
 	}
 	
 	
 	public void filterACS(){
-		driver.findElement(By.id("checkbox-1152-inputEl")).click();
+		driver.findElement(By.id("checkbox-1153-inputEl")).click();
 //		filterElement("ACS/WFC");
 	}
 	
 	
 	public void filterHLA(){
-		driver.findElement(By.id("checkbox-1177-inputEl")).click();
+		driver.findElement(By.id("checkbox-1175-inputEl")).click();
 //		filterElement("HLA");
 	}
 	
 	
 	public void clearFilter(){
-		driver.findElement(By.id("button-1097-btnIconEl")).click();
+		driver.findElement(By.id("button-1098-btnIconEl")).click();
 	}
 	
 	public void checkFilterResult(String result, String filterName){

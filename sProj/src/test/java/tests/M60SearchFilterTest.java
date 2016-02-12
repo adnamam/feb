@@ -15,14 +15,14 @@ public class M60SearchFilterTest extends BaseTest{
 		
 		//click image filter
 		filt.filterImage();
-		filt.checkFilterResult("319", "image");
+		filt.checkFilterResult("243", "image");
 		
 		//clear filter
 		filt.clearFilter();
 		
 		//click HST filter
 		filt.filterHST();
-		filt.checkFilterResult("369", "HST");
+		filt.checkFilterResult("290", "HST");
 		
 		//clear filter
 		filt.clearFilter();
@@ -42,6 +42,6 @@ public class M60SearchFilterTest extends BaseTest{
 		//click HST+HLA filter
 		filt.filterHST();
 		filt.filterHLA();
-		filt.checkFilterResult("87", "HST+HLA");
+		filt.checkFilterResult("102", "HST+HLA");
 	}
 }
