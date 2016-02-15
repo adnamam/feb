@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class WebDriverManager {
 	
 	private static WebDriver driver;
-//	private static String driverPath = "C:\\";
 	
 	
 	public static WebDriver driver() {
@@ -39,8 +38,8 @@ public class WebDriverManager {
 //	}
 	
 	public static WebDriver createDriver() {
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
-//		System.setProperty("webdriver.chrome.driver", "/Users/amarrione/Downloads/chromedriver");
+//		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/amarrione/Downloads/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();

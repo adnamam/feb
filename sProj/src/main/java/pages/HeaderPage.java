@@ -55,8 +55,10 @@ public class HeaderPage extends BasePage {
 		return driver.findElement(By.id("tab-1099-btnInnerEl")).getText();
 	}
 	
-	public void login() {
-		SSOPage sso= null;
+	/**
+	 * Handles login from portal. Gets portal window again after clicking login.
+	 */
+	public void loginFromPortal() {
 		String parentHandle = driver.getWindowHandle(); //get current window
 		
 		//click login button on the portal
@@ -66,10 +68,21 @@ public class HeaderPage extends BasePage {
 		    driver.switchTo().window(winHandle); //switch webdriver focus to sso window
 		}
 		
-		sso = getPage(SSOPage.class);
+		//enter and submit test user login info
+		login("masttestusertwo@gmail.com", "GilligansIsland1");
 		
-		sso.enterAndSubmitLoginInfo("masttestusertwo@gmail.com", "GilligansIsland1");
 		driver.switchTo().window(parentHandle); // switch back to the original window
+	}
+	
+	/**
+	 * Enters login info on sso page and clicks login
+	 * @param username
+	 * @param password
+	 */
+	public void login(String username, String password) {
+		SSOPage sso = getPage(SSOPage.class);  //get page
+		sso.enterAndSubmitLoginInfo(username, password);
+		
 	}
 	
 	
