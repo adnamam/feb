@@ -6,10 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class WebDriverManager {
+public class WebDriverManager extends ReadPropertyFile {
 	
 	private static WebDriver driver;
-	
 	
 	public static WebDriver driver() {
 		if (driver == null) {
@@ -38,13 +37,31 @@ public class WebDriverManager {
 //	}
 	
 	public static WebDriver createDriver() {
+		String os = System.getProperty("os.name").toLowerCase();
+		if (os.contains("win")) {
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
-//		System.setProperty("webdriver.chrome.driver", "/Users/amarrione/Downloads/chromedriver");
+		}
+		else if (os.contains("mac")) {
+			System.setProperty("webdriver.chrome.driver", "/Users/amarrione/Downloads/chromedriver");
+		}
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		return driver;
 	}
+//	public static WebDriver createDriver() {
+//		String os = System.getProperty("os.name").toLowerCase();
+//		if (os.contains("win")) {
+//			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+//		}
+//		else if (os.contains("mac")) {
+//			System.setProperty("webdriver.chrome.driver", "/Users/amarrione/Downloads/chromedriver");
+//		}
+//		WebDriver driver = new ChromeDriver();
+//		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//		driver.manage().window().maximize();
+//		return driver;
+//	}
 	
 	/**
 	 * Quits and removes the driver

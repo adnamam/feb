@@ -15,7 +15,7 @@ public class CommonUtils {
 	public static final int IMPLICIT_WAIT = 3;
 	public static final int IMPLICIT_WAIT_LONG = 6;
 	
-	public static WebDriver driver() {
+	public WebDriver driver() {
 		return WebDriverManager.driver();
 	}
 
@@ -27,7 +27,7 @@ public class CommonUtils {
 	 * @return the page object
 	 * @throws MalformedURLException 
 	 */
-	public static <T> T getPage(Class<T> pageClass) {
+	public <T> T getPage(Class<T> pageClass) {
 		return PageFactory.initElements(driver(), pageClass);
 	}
 	
@@ -37,7 +37,7 @@ public class CommonUtils {
 	 * @return a default WebDriverWait object
 	 * @throws MalformedURLException 
 	 */
-	public static WebDriverWait driverWait() {
+	public WebDriverWait driverWait() {
 		return driverWait(IMPLICIT_WAIT_LONG);
 	}
 	
@@ -49,7 +49,7 @@ public class CommonUtils {
 	 * @return a WebDriverWait object
 	 * @throws MalformedURLException 
 	 */
-	public static WebDriverWait driverWait(int timeoutInSeconds) {
+	public WebDriverWait driverWait(int timeoutInSeconds) {
 		return new WebDriverWait(driver(), timeoutInSeconds);
 	}
 	
